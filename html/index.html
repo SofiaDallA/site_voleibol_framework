@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vôlei - O Esporte Mais Dinâmico e Divertido</title>
+    <!-- Bootstrap 5.3 CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!--NAVEGAÇÃO (Menu Responsivo) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#paginaInicial">🏐 VEM PRO VÔLEIZIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#paginaInicial">Página Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modalidades">Modalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL HERO -->
+    <section id="paginaInicial">
+        <div id="carouselVolei" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselVolei" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselVolei" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselVolei" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img width="1400" src="../img/keithjj-volleyball-team-1561544_1920.jpg" class="rounded mx-auto d-block" alt="Slide 1">
+                    <div class="carousel-caption bg-white bg-opacity-50 rounded p-3">
+                        <h1>Vôlei de Quadra</h1>
+                        <p>Fundamentos, tática e trabalho em equipe</p>
+                        <a href="#contatos" class="btn btn-primary btn-hover">Inscreva-se</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-dark">
+                    <img width="1400" src="../img/taniavdb-beach-volleyball-6483796_1920.jpg" class="rounded mx-auto d-block" alt="Slide 2">
+                    <div class="carousel-caption bg-white bg-opacity-50 rounded p-3">
+                        <h1>Vôlei de Praia</h1>
+                        <p>Condicionamento físico e técnica na areia</p>
+                        <a href="#contatos" class="btn btn-primary btn-hover">Mais informações</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img width="1400" src="../img/voleidequadra.jpg" class="rounded mx-auto d-block" alt="Slide 3">
+                    <div class="carousel-caption bg-white bg-opacity-50 rounded p-3">
+                        <h1>Treinamento Juvenil e Adulto</h1>
+                        <p>Turmas divididas por nível de experiência</p>
+                        <a href="#contatos" class="btn btn-primary btn-hover">Agendar aula</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselVolei" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselVolei" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- 3. SEÇÃO SOBRE -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre o Projeto</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-md-6 text-center">
+                    <p class="lead">Treinamentos abertos para todas as idades, focados no desenvolvimento técnico e espírito esportivo.</p>
+                    <p>Aulas práticas com acompanhamento de professores especializados.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 mb-3 bg-light rounded text-center card-hover">
+                        <h3 class="text-center fw-bold">3x por semana</h3>
+                        <p class="mb-0">Treinos regulares</p>
+                    </div>
+                    <div class="p-3 bg-light rounded text-center card-hover">
+                        <h3 class="text-center fw-bold">Iniciante ao Avançado</h3>
+                        <p class="mb-0">Turmas divididas por nível</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CARDS COM IMAGENS -->
+    <section id="modalidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Modalidades</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 card-hover">
+                        <img src="../img/fotoiniciacao.jpg" class="card-img-top" alt="Iniciação">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Iniciação</h5>
+                            <p class="card-text">Toque, manchete e saque para quem está começando.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 card-hover">
+                        <img src="../img/fotocompetitividade.jpg" class="card-img-top" alt="Competitivo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Equipe competitiva</h5>
+                            <p class="card-text">Sistemas táticos, bloqueio e preparação para torneios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 card-hover">
+                        <img src="../img/fotovoleideareia.jpg" class="card-img-top" alt="Vôlei de Praia">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Vôlei de Praia</h5>
+                            <p class="card-text">Treinos em duplas na quadra de areia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FORMULÁRIO DE VALIDAÇÃO -->
+    <section id="contatos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Agende sua aula experimental</h2>
+            <form id="contatoForm" class="mx-auto" style="max-width: 600px;" novalidate>
+                <div class="mb-3">
+                    <label for="nome" class="form-label fw-bold">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Informe seu nome completo">
+                    <div class="invalid-feedback">O nome deve ter no mínimo 3 caracteres.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+                    <div class="invalid-feedback">Insira um e-mail válido.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label fw-bold">Mensagem / Turma desejada</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Qual horário ou turma você prefere?"></textarea>
+                    <div class="invalid-feedback">Insira uma mensagem com pelo menos 10 caracteres.</div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 btn-hover">Enviar inscrição</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 6. RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h5 class="mb-1">Venha fazer parte do nosso time!</h5>
+            <p class="text-secondary mb-2">Esporte, saúde e integração</p>
+            <small class="text-secondary">&copy; 2026. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- 7. NOTIFICAÇÃO TOAST DE SUCESSO -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="toastSucesso" class="toast align-items-center text-bg-success border-0" role="alert">
+            <div class="d-flex">
+                <div class="toast-body">
+                    ✅ Inscrição enviada com sucesso!
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS personalizado -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
