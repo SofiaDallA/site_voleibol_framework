@@ -32,3 +32,30 @@
   height: 470px !important;
   object-fit: cover;
 }
+/* Ajuste de altura das imagens do carrossel para manter responsividade */
+.carousel-item img {
+  max-height: 550px;
+  object-fit: cover;
+}
+/* Efeitos de transição nos cards e botões */
+.card-hover, .btn-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(78, 14, 107, 0.25);
+}
+.btn-hover:hover {
+  transform: scale(1.03);
+}
+/* Estrutura de textos com efeitos de transição */
+.nav-link, .card-title, #sobre p {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover {
+  color: #e0aaff !important;
+  transform: translateY(-2px);
+}
+.card-hover:hover .card-title {
+  color: #5b0a81;
+}
