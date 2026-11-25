@@ -28,3 +28,7 @@
   --bs-btn-active-bg: #580082;
   --bs-btn-active-border-color: #48018b;
 }
+.carousel-item img {
+  height: 470px !important;
+  object-fit: cover;
+}
